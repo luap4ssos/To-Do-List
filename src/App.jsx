@@ -42,7 +42,7 @@ export default function App() {
 
   return (
     <div className="todo-app">
-      <h1>Lista Atividades</h1>
+      <h1>Alterando titulo</h1>
 
       <ul>
         {atividades.map((atv) => (
@@ -69,7 +69,7 @@ export default function App() {
         onChange={(evento) => atualizarAtividade(evento.target.value)}
       />
       <p>Atividade Inserida: {atividade}</p>
-      <Botao onClick={adicionarAtividade}>Adicionar à Lista</Botao>
+      <Botao onClick={adicionarAtividade}>Adicionar à Lista - alteração</Botao>
 
       <p>valor do meu contador {contador}</p>
       <Botao onClick={incrementar}>Clicar</Botao>
